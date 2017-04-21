@@ -27,8 +27,8 @@ for element in b['text']:
 	aux2.append((auxiliar2,'negative'))
 	auxiliar2=[]
 
-aux1=aux1[:10000]
-aux2=aux2[:20000]
+aux1=aux1[:100]
+aux2=aux2[:200]
 
 pos_df=pd.DataFrame(aux1)
 neg_df=pd.DataFrame(aux2)
