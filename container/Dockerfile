@@ -1,10 +1,11 @@
 FROM python:3
-COPY tweets_pos_clean.txt /tmp/
-COPY tweets_neg_clean.txt /tmp/
-COPY test_naive_bayes.py /tmp/
+
+ADD tweets_pos_clean.txt /
+
+ADD tweets_neg_clean.txt /
+
+ADD test_naive_bayes.py /
+
 RUN pip install nltk pandas
-ENTRYPOINT cd /tmp && python test_naive_bayes.py
 
-
-
-
+#ENTRYPOINT ["python","./test_naive_bayes.py"]
