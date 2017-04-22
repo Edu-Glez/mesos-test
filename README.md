@@ -44,6 +44,6 @@ Tomo 1.7452330589294434 segundos ejecutarse
 
 Whereas in the local machine takes 3.3 seconds approx.
 
-![alt text] (https://github.com/Edu-Glez/mesos-test/blob/master/Time_local.png?raw=true)
+![alt text](https://github.com/Edu-Glez/mesos-test/blob/master/Time_local.png)
 
 
