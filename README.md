@@ -24,23 +24,8 @@ The job deploys a docker container in the mesos cluster with the image previousl
 
 The results can be seen in the file stdout(19) obtained from the mesos cluster where several times of excecution are written with an average of 1.8 seconds:
 
-Tomo 1.6909887790679932 segundos ejecutarse
-Tomo 1.737644910812378 segundos ejecutarse
-Tomo 1.7120234966278076 segundos ejecutarse
-Tomo 1.7042474746704102 segundos ejecutarse
-Tomo 1.714615821838379 segundos ejecutarse
-Tomo 1.7018582820892334 segundos ejecutarse
-Tomo 1.756645679473877 segundos ejecutarse
-Tomo 1.7567250728607178 segundos ejecutarse
-Tomo 1.7509968280792236 segundos ejecutarse
-Tomo 1.7327919006347656 segundos ejecutarse
-Tomo 1.705024003982544 segundos ejecutarse
-Tomo 1.7102999687194824 segundos ejecutarse
-Tomo 1.7610230445861816 segundos ejecutarse
-Tomo 1.7125771045684814 segundos ejecutarse
-Tomo 1.8029544353485107 segundos ejecutarse
-Tomo 1.7476527690887451 segundos ejecutarse
-Tomo 1.7452330589294434 segundos ejecutarse
+![alt text](https://github.com/Edu-Glez/mesos-test/blob/master/Captura%20de%20pantalla%20de%202017-04-21%2017-51-38.png)
+
 
 Whereas in the local machine takes 3.3 seconds approx.
 
